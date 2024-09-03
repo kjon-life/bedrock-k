@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports 
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Mypy
+.mypy_cache/
+
+# Poetry
+poetry.lock
+
+# AWS CLI
+.aws/credentials
+.aws/config
+
+# Build notes and collateral
+slides_local_docs/
+
+# asdf versions
+.tool-versions
+
+# C extensions
+*.so
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# celery beat schedule file
+celerybeat-schedule
+
+# mkdocs documentation
+/site
+
+# Parcel stuff
+dist
+.parcel-cache
+.parcel-cache/
+
+# Fly.io
+fly.toml
