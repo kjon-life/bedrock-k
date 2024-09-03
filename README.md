@@ -69,5 +69,5 @@ This project is possible because of these and other services:
 
 This project is possible because of these and other people:
 
-- [Jacinto Wong](https://github.com/JacintoDesign/typographix-final/) - for code and ideas
+
 - [Zero To Mastery Courses](https://zerotomastery.io/courses/) - for 330+ days of work done in  Python, Rust, Django, SCSS, prompt engineering, full stack, automation, AWS certification, business analytics, statistics, AWS Bedrock, OpenAI API, LangChain, Streamlit, Pinecone 
