@@ -2,8 +2,16 @@
 
 # Hello! Should we prompt?
 
+I've been a builder 🍀 all my life making systems that work for enterprise, production loads. 
 
-I've been a builder 🍀 all my life making systems that work for enterprise, production loads. The `AI` we build has far-reaching effects. The pace of it is staggering
+An arc of 'AI' is exchange of information within context to create value. As product, that means I get to work on something which solves an experience problem, or a business problem, or both, because someone is willing to pay for that solution. Let me be succinct:  So far, no one is paying me for this. Since it produces delight in me, perhaps it is art?
+
+The project has four systems:
+
+1. A code generation model.
+2. A chat history summarization model.
+3. Retrieval augmented generation (RAG) model.
+4. A Diffusion generator.
 
 <img align="right" width="300" src="https://user-images.githubusercontent.com/76539355/214731371-78cb7bcb-996d-4108-9872-7af758ed5647.png" alt="A Maia">
 
@@ -70,4 +78,4 @@ This project is possible because of these and other services:
 This project is possible because of these and other people:
 
 
-- [Zero To Mastery Courses](https://zerotomastery.io/courses/) - for 330+ days of work done in  Python, Rust, Django, SCSS, prompt engineering, full stack, automation, AWS certification, business analytics, statistics, AWS Bedrock, OpenAI API, LangChain, Streamlit, Pinecone 
+- [Zero To Mastery Courses](https://zerotomastery.io/courses/) - for 342+ days of work done in  Python, Rust, Django, SCSS, prompt engineering, full stack, automation, AWS certification, business analytics, statistics, AWS Bedrock, OpenAI API, LangChain, Streamlit, Pinecone,... 

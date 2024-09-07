@@ -1,0 +1,16 @@
+fly.toml
+Dockerfile
+.dockerignore
+node_modules
+.git
+.gitignore
+bower_components
+.parcel-cache
+.parcel-cache/
+dist
+.env.local
+.DS_Store
+.idea
+.ipynb_checkpoints
+celerybeat-schedule
+site
