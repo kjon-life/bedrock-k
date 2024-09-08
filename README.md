@@ -17,7 +17,7 @@ The project has four systems:
 
 
 
-# kjon &middot; life  
+# kjon &middot; prompt  
 [![Fly Deploy](https://github.com/kjon-life/bedrock-k/actions/workflows/fly.yml/badge.svg)](https://github.com/kjon-life/bedrock-k/actions/workflows/fly.yml) 
  ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kjon-life/bedrock-k) 
  ![GitHub License](https://img.shields.io/github/license/kjon-life/bedrock-k)
@@ -31,9 +31,9 @@ This is a project that feeds my developer portfoio. To connect:
 
 ### About:  
 - I work in the intersections of infrastructure, performance, and revenue.  
-- I am deeply curious about LLM systems which assist people to solve for accuracy, speed, utility, and delight. 
+- I am deeply curious about LLM systems which assist people to solve with accuracy, speed, utility, and delight. 
 - I am working on enterprise LLMs with traceability to the original factual source. 
-- We augment open source LLMs with domain-specific and proprietary data for contextual relevance. 
+- We augment open source LLMs for domain-specific and proprietary data in contextual relevance. 
 - We write software which we ourselves, use... 
 
 ### Project Overview:
@@ -45,6 +45,15 @@ This is a project that feeds my developer portfoio. To connect:
 
 ### Tech stack:
 * Python - for well, everything
+* Bedrock - for accessing a wide range of models
+* Pinecone - for storing and querying the RAG data
+* LangChain - for building applications with LLMs  
+* pre-commit - for code quality and keeping the infrastructure DRY
+* Poetry - for dependency management
+    * [Poetry](https://python-poetry.org/) is a tool for dependency management in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+    * [flake8](https://flake8.pycqa.org/) ensure that code adheres to PEP 8 standards.
+    * [black](https://black.readthedocs.io/en/stable/) ensures consistent code style, including indentation, spacing, and line length.
+    * [isort](https://pycqa.github.io/isort/) is a tool for sorting imports in Python. It allows you to sort your imports.
 * Parcel - for preprocessing SCSS and JS bundling
 * Go - for the app code
 * Docker - for unit of deployment
@@ -65,6 +74,7 @@ You can read about it [here](https://fly.io/docs/hands-on/).
 
 This project [depends](https://github.com/kjon-life/bedrock-k/network/dependencies) on the copious contributions of others including:
 
+- [Cursor](https://www.cursor.com/) because it works in conditions that seem designed to make someone quit. 
 - [Perplexity](https://www.perplexity.ai/) 
     - and the [pplx-api](https://docs.perplexity.ai/docs/getting-started) 
 - [Amazon Q](https://github.com/aws/aws-toolkit-vscode) in ~~VS Code~~ Cursor
@@ -78,4 +88,4 @@ This project is possible because of these and other services:
 This project is possible because of these and other people:
 
 
-- [Zero To Mastery Courses](https://zerotomastery.io/courses/) - for 342+ days of work done in  Python, Rust, Django, SCSS, prompt engineering, full stack, automation, AWS certification, business analytics, statistics, AWS Bedrock, OpenAI API, LangChain, Streamlit, Pinecone,... 
+- [ZTM](https://zerotomastery.io/courses/) - for 342+ days of work done in  Python, Rust, Django, SCSS, prompt engineering, full stack, automation, AWS certification, business analytics, statistics, AWS Bedrock, OpenAI API, LangChain, Streamlit, Pinecone,... 

@@ -13,7 +13,17 @@ boto3 = "^1.35.10"
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"
 moto = "^5.0.13"
+ruff = "^0.6.4"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 75
+target-version = "py38"
+select = ["E", "F", "I", "B"]
+ignore = []
+
+[tool.ruff.isort]
+known-first-party = ["bedrock-k"]
