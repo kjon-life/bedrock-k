@@ -2,11 +2,13 @@
 
 # Hello! Should we prompt?
 
-I've been a builder 🍀 all my life making systems that work for enterprise, production loads. 
+I've been a builder 🍀 all my life. 
 
-An arc of 'AI' is exchange of information within context to create value. As product, that means I get to work on something which solves an experience problem, or a business problem, or both, because someone is willing to pay for that solution. Let me be succinct:  So far, no one is paying me for this. Since it produces delight in me, perhaps it is art?
+The arc of 'AI' allows us to build information within context to create value. As product, that means we build something which solves an experience problem, or a business problem, or both, and someone is willing to pay for our solution. 
 
-The project has four systems:
+Let me be succinct:  If no one is paying me for this (yet), and since it produces delight in me, perhaps it is art?
+
+The project has four de rigueur systems:
 
 1. A code generation model.
 2. A chat history summarization model.
@@ -51,9 +53,7 @@ This is a project that feeds my developer portfoio. To connect:
 * pre-commit - for code quality and keeping the infrastructure DRY
 * Poetry - for dependency management
     * [Poetry](https://python-poetry.org/) is a tool for dependency management in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
-    * [flake8](https://flake8.pycqa.org/) ensure that code adheres to PEP 8 standards.
-    * [black](https://black.readthedocs.io/en/stable/) ensures consistent code style, including indentation, spacing, and line length.
-    * [isort](https://pycqa.github.io/isort/) is a tool for sorting imports in Python. It allows you to sort your imports.
+    * [ruff](https://beta.ruff.rs/docs/configuration/) ensure that code adheres to PEP 8 standards.
 * Parcel - for preprocessing SCSS and JS bundling
 * Go - for the app code
 * Docker - for unit of deployment
